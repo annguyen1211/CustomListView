@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        >
+
+    <ImageView
+        android:id="@+id/imgMH"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_baseline_videogame_asset_24"
+        android:layout_gravity="center"
+        android:layout_weight="2">
+
+    </ImageView>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/txtMH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="LAP TRINH ANDROID">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtTC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="SO TIN CHI">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
